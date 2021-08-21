@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1e1cb8b-08f6-42d3-bf3d-aaa171dcb1e1">
+  <producedTypes>
+    <objectType typeId="9a3e9537-d3c2-4ac0-b375-bbcc8fd8cb5c" valueTypeId="dd7a2453-88eb-4a3e-a44c-657abdd9d668"/>
+    <refType typeId="5057882c-83e3-4a3d-bff1-acb049f83937" valueTypeId="11a6cf9f-c629-4634-a0ab-6885b6ec2581"/>
+    <selectionType typeId="2dea6d66-a720-4668-8e43-1572a697906a" valueTypeId="c6d253ce-4dab-4f60-80c7-738670325096"/>
+    <listType typeId="0289e2b1-0174-4169-a2ef-54759861c2ad" valueTypeId="4cfa94e9-1e18-49e1-831b-e0264a8d8e07"/>
+    <managerType typeId="6191a3aa-5218-4887-be91-15c39ea36e76" valueTypeId="ff6f4072-4df0-4676-94ad-210a152bfadf"/>
+  </producedTypes>
+  <name>мдмКомандыФорм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Команды форм</value>
+  </synonym>
+  <inputByString>Catalog.мдмКомандыФорм.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.мдмКомандыФорм.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Команда формы</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Команда формы</value>
+  </extendedObjectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.мдмФормыДанных</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <codeSeries>WithinOwnerSubordination</codeSeries>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.мдмКомандыФорм.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.мдмКомандыФорм.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="dde6850a-0fc8-48e2-8cb8-6e1d30f8e913">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>80</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="574d1c0c-ef69-423f-8df3-6762517acb48">
+    <name>Заголовок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заголовок</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="947947f4-b3e1-4066-b68d-191d478821b7">
+    <name>АлгоритмКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Алгоритм клиент</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fe0352a1-ea07-4af5-a315-fc7146a6ba79">
+    <name>АлгоритмСервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Алгоритм сервер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d2065441-0630-4b8e-9914-11208da887da">
+    <name>ПредставлениеСсылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление ссылки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="29d88109-ce7d-4ea1-846b-8a8d654cb845">
+    <name>ИзменяетСохраняемыеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменяет сохраняемые данные</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="56481f7d-8fba-4514-98aa-1d2858b9f9ef">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4589c177-d3f2-46ba-acbc-82a9277e9d4c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

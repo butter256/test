@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d6d223a-7eab-41bb-bb7e-491a9163bbb4">
+  <name>мдмНачатьПроцессИзменения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начать процесс изменения</value>
+  </synonym>
+  <group>CommandGroup.мдмПроцессыОбработки</group>
+  <commandParameterType>
+    <types>DefinedType.мдмМастерДанные</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

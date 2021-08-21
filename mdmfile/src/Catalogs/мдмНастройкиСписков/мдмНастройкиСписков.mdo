@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a1e7e5e-00be-4f59-b34e-06b189a1fd63">
+  <producedTypes>
+    <objectType typeId="7bb990c5-e6ea-4d58-8a6d-3a7f19208723" valueTypeId="f33db9b6-2bb3-4747-a637-46aee0f7f266"/>
+    <refType typeId="c944586e-9e0d-452b-a9f3-e50123e14c50" valueTypeId="af969f82-208b-4691-8071-73772718f570"/>
+    <selectionType typeId="ca997c68-91f0-4481-adbe-b4832b9dee15" valueTypeId="57d5a707-d3e2-4433-a948-188f2e9a62af"/>
+    <listType typeId="f0b4a658-3889-49aa-8fec-5b90cbae5239" valueTypeId="ff42f16f-49ba-45b3-ae0a-1528ca23d20b"/>
+    <managerType typeId="6ffdfe20-157e-41b2-ba85-2f43212a2533" valueTypeId="90bdb35a-bbd0-458c-93ce-3e1b777bc1bd"/>
+  </producedTypes>
+  <name>мдмНастройкиСписков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки списков бизнес-процессов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.мдмНастройкиСписков.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.мдмНастройкиСписков.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Настройка списка</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Настройка списка бизнес-процесса</value>
+  </extendedObjectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.мдмБизнесПроцессы</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.мдмНастройкиСписков.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.мдмНастройкиСписков.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.мдмНастройкиСписков.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="4abca652-656c-4085-8332-c6126fe645b8">
+    <name>СхемаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема данных</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.мдмСхемыДанных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="dec40f73-3260-4ad5-9fd4-8cada9537533">
+    <producedTypes>
+      <objectType typeId="bb621dcc-e5b6-484e-bfc1-02db988a3003" valueTypeId="85f91a21-07d1-49aa-a412-9d944a6b8866"/>
+      <rowType typeId="809772c0-c462-43fb-99b8-42222e91f8c2" valueTypeId="a68f7d59-2566-414a-9936-8388150c229b"/>
+    </producedTypes>
+    <name>РеквизитыСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизиты списка</value>
+    </synonym>
+    <attributes uuid="9da9a50a-a8dc-457d-bcf6-79ac98a20006">
+      <name>Реквизит</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реквизит</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.мдмРеквизиты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Catalog.мдмНастройкиСписков.Attribute.СхемаДанных</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="44293352-3721-46aa-820a-8448130f9271">
+      <name>Показывать</name>
+      <synonym>
+        <key>ru</key>
+        <value>Показывать</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="a702829d-2f14-4ff6-a995-a599803e29d2">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0cc8247e-36ab-4c3c-b735-92c9350748da">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b840fd49-de9f-4d27-88cc-365e9e0f9e61">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="2a4acac0-1d4c-4dee-b26b-36b12e3d2109">
+    <name>ОткрытьНастройкуСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка списка</value>
+    </synonym>
+    <group>CommandGroup.мдмПерейти</group>
+    <commandParameterType>
+      <types>CatalogRef.мдмНастройкиСписков</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Catalog>

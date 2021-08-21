@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cccbf899-fee0-43a9-ad56-c2cd96b5b7a6">
+  <producedTypes>
+    <objectType typeId="df91bb4b-e4db-495e-b6bc-b88b76ad6a5e" valueTypeId="1220d355-398e-4beb-9ac7-7e9b1f0b673f"/>
+    <refType typeId="8ec79f89-cced-438e-9d47-d7947ee7da8b" valueTypeId="c5180aa2-f0d1-4150-8211-7ca6370f5b61"/>
+    <selectionType typeId="4e7d7c2e-4112-4ba3-9ba5-962c27757f6b" valueTypeId="d49bcab2-40c3-450a-87fd-8d3066a2e9dd"/>
+    <listType typeId="53536722-2b66-431c-884f-1868ed27cf90" valueTypeId="c0180f7b-da0b-494e-baae-51ff18205594"/>
+    <managerType typeId="36475b91-9d9c-41d2-95d3-4fc5e555d7c2" valueTypeId="c2159209-3618-45d7-b346-5813b5208d5d"/>
+  </producedTypes>
+  <name>мдмДанныеПроцессовОбщее</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные процессов общие</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>15</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.мдмДанныеПроцессовОбщее.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="f9e4c267-cbf4-4075-830e-3be3a6982dc7">
+    <name>СхемаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема данных</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.мдмСхемыДанных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="b5baba89-caec-45ab-ae0b-c9fe6356ae71">
+    <producedTypes>
+      <objectType typeId="4c5aeaea-2223-4760-abdb-79bf0fe1b362" valueTypeId="520bd458-eb5f-4f0b-aaf0-8a4474cb248d"/>
+      <rowType typeId="a6f00025-4806-4b8d-b976-43e26b5f68fa" valueTypeId="ea3eed6c-f65c-44fe-9053-b50546f19882"/>
+    </producedTypes>
+    <name>Реквизиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизиты</value>
+    </synonym>
+    <attributes uuid="bb528429-c0b1-4de2-b6e3-8d3a4fb989ef">
+      <name>Реквизит</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реквизит</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.мдмРеквизиты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Catalog.мдмДанныеПроцессовОбщее.Attribute.СхемаДанных</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="094da1f7-882e-40fa-bd9c-669bd04fc2bc">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>DefinedType.мдмЗначениеХранилищаДанных</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="66cb2996-4f2b-4391-8da0-031ea0b70b79">
+      <name>БольшаяСтрока</name>
+      <synonym>
+        <key>ru</key>
+        <value>Большая строка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ff52d199-5fcd-4a2c-9632-771d63c79ab7">
+      <name>Хранилище</name>
+      <synonym>
+        <key>ru</key>
+        <value>Хранилище</value>
+      </synonym>
+      <type>
+        <types>ValueStorage</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c61367e6-ca51-468a-8c60-c631d293b24c">
+      <name>Тип</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип</value>
+      </synonym>
+      <type>
+        <types>EnumRef.мдмТипДанных</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="bd3fe106-5dad-4090-a61d-0299b1030b28">
+    <producedTypes>
+      <objectType typeId="50770d7d-627e-47d7-ac5c-2ce0b285e2e5" valueTypeId="af97e9b7-247a-43d6-b0d3-b1a9ba845d1d"/>
+      <rowType typeId="3953ae39-8343-420b-ad52-428b23392b27" valueTypeId="6843cdd5-5ab2-41fb-b0aa-7dfa8f7c309d"/>
+    </producedTypes>
+    <name>ТабличныеЧасти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличные части</value>
+    </synonym>
+    <attributes uuid="78f2408e-b384-41f3-8676-b9a601188d9b">
+      <name>ТабличнаяЧасть</name>
+      <synonym>
+        <key>ru</key>
+        <value>Табличная часть</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.мдмТабличныеЧасти</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="babac48f-5dd9-44e6-a6e2-e009994bcd62">
+      <name>Номер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер строки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9f4b1c8e-544d-43ff-8c90-7a2f8cc8a26f">
+      <name>Реквизит</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реквизит</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.мдмРеквизиты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8a83f4fc-f2ec-46f5-a89c-b13f755a7751">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>DefinedType.мдмЗначениеХранилищаДанных</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7fa90024-abd9-49f8-9ea4-57ec9705cef1">
+      <name>БольшаяСтрока</name>
+      <synonym>
+        <key>ru</key>
+        <value>Большая строка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e9847584-65cc-45b5-9549-07e4d03f0806">
+      <name>Хранилище</name>
+      <synonym>
+        <key>ru</key>
+        <value>Хранилище</value>
+      </synonym>
+      <type>
+        <types>ValueStorage</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b9eec3a5-4736-40e0-ac33-e6888138017a">
+      <name>Тип</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип</value>
+      </synonym>
+      <type>
+        <types>EnumRef.мдмТипДанных</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="c4dfe01e-31bd-47f0-9192-59dc4013027a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

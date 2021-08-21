@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e91f1e0a-fbc9-4513-8716-cdae2e77a190">
+  <producedTypes>
+    <refType typeId="1d867b2f-b51e-46fb-a4d3-5fb92a684bc2" valueTypeId="28136b21-4593-474e-9ac7-1b6dd5c4e17d"/>
+    <listType typeId="fc99ffcd-a53b-4a26-99f0-1f74b3a979a9" valueTypeId="72822aee-f11a-4875-b607-f4bf7e003924"/>
+    <managerType typeId="488ef5a7-ee3e-40fb-82bc-de936b803bd3" valueTypeId="9334473a-e7d9-4825-b421-1b33be68703a"/>
+  </producedTypes>
+  <name>нсиЮрФизЛицо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Юр/Физ лицо</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="27ab60cf-751d-4200-b34a-52538241c09d">
+    <name>ЮрЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юр. лицо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3c1c18eb-34ec-4e45-9107-aebce54345dc">
+    <name>ФизЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физ. лицо</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

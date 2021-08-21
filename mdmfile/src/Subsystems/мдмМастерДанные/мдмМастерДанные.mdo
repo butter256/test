@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3516b95-c2c2-4b90-b2ee-77a437da3d65">
+  <name>мдмМастерДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мастер данные</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ДемоНоменклатура</content>
+  <content>CommonModule.мдмМастерДанныеСобытия</content>
+  <content>Catalog.ДемоКонтрагенты</content>
+  <content>Enum.нсиЮрФизЛицо</content>
+  <content>CommonAttribute.мдмДатаСоздания</content>
+  <content>CommonAttribute.мдмДатаИзменения</content>
+  <content>CommonAttribute.мдмАвторСоздания</content>
+  <content>CommonAttribute.мдмАвторИзменения</content>
+  <content>EventSubscription.мдмМастерДанныеПередЗаписью</content>
+</mdclass:Subsystem>

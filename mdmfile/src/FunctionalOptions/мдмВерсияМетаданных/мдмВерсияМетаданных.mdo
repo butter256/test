@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfa131fd-5fe8-45b7-8931-f6f068cbd413">
+  <name>мдмВерсияМетаданных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версия метаданных</value>
+  </synonym>
+  <location>Constant.мдмВерсияМетаданных</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

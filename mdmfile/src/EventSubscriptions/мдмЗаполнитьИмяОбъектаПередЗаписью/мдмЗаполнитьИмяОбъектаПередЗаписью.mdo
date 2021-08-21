@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f66b72f-0eb0-4f2d-8790-6a6ef1610d9d">
+  <name>мдмЗаполнитьИмяОбъектаПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнить имя объекта перед записью</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.мдмТочкиВыборВарианта</types>
+    <types>CatalogObject.мдмТочкиВложенныйПроцесс</types>
+    <types>CatalogObject.мдмФормыДанных</types>
+    <types>CatalogObject.мдмСхемыДанных</types>
+    <types>CatalogObject.мдмТочкиУсловие</types>
+    <types>CatalogObject.мдмТабличныеЧасти</types>
+    <types>CatalogObject.мдмТочкиЗавершение</types>
+    <types>CatalogObject.мдмТочкиСтарт</types>
+    <types>CatalogObject.мдмРеквизиты</types>
+    <types>CatalogObject.мдмБизнесПроцессы</types>
+    <types>CatalogObject.мдмКомандыФорм</types>
+    <types>CatalogObject.мдмТочкиРазделение</types>
+    <types>CatalogObject.мдмТочкиОбработка</types>
+    <types>CatalogObject.мдмТочкиСлияние</types>
+    <types>CatalogObject.мдмМэппинги</types>
+    <types>CatalogObject.мдмТочкиДействие</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.мдмБизнесПроцессыСобытия.ЗаполнитьИмяПередЗаписью</handler>
+</mdclass:EventSubscription>

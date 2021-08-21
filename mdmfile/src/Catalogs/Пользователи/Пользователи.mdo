@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e417787-8001-4a9c-b4a7-e3492c1c54c6">
+  <producedTypes>
+    <objectType typeId="86073b05-0aee-43fd-ad17-92c22da88de9" valueTypeId="b81e73b5-7fd8-45a3-94a7-d38661dfd3ed"/>
+    <refType typeId="65600815-ae4d-4e15-acb1-3581357da6c4" valueTypeId="7753cfcd-fb2d-404b-835a-f9c177f0a216"/>
+    <selectionType typeId="fe5b6bdf-5213-4b90-ab2b-cc3bce974932" valueTypeId="98a44d75-70b7-4a91-9a54-b03b4ba28064"/>
+    <listType typeId="b86f2cfd-d11b-4186-b662-f0f6f3325936" valueTypeId="28390612-610e-405b-8b68-8d75e2e1b818"/>
+    <managerType typeId="9642ec99-b74d-48a3-9f61-87e9eb826033" valueTypeId="aa65e1e7-ff20-478f-b59b-2578e26bf983"/>
+  </producedTypes>
+  <name>Пользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Пользователи.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Пользователи.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="1e97caab-110a-473d-9be8-3f3b23e2530e">
+      <name>Иванов</name>
+      <description>Иванов</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="eb86e81f-e65f-4e4c-9cfc-ba575dad351a">
+      <name>Петров</name>
+      <description>Петров</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="cb2359bf-579b-4b43-b63c-fa7f27ff71c8">
+      <name>Сидоров</name>
+      <description>Сидоров</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c514451-5e76-49ad-bfe4-a19c70d18cd2">
+  <producedTypes>
+    <containerType typeId="d2813007-9327-41a9-8d10-ccd060d53179" valueTypeId="c2f0a96f-e93f-43e8-bbe3-bdfb2c4406d4"/>
+  </producedTypes>
+  <name>мдмХранилищеДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хранилище данных</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.мдмДанныеПроцессовКадры</types>
+    <types>CatalogRef.мдмДанныеПроцессовМТР</types>
+    <types>CatalogRef.мдмДанныеПроцессовОбщее</types>
+    <types>CatalogRef.мдмДанныеПроцессовПредприятие</types>
+    <types>CatalogRef.мдмДанныеПроцессовДоговоры</types>
+    <types>CatalogRef.мдмДанныеПроцессовКонтрагенты</types>
+  </type>
+</mdclass:DefinedType>

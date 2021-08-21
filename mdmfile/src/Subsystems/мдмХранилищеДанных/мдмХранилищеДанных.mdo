@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6935d5be-b1b9-4790-9242-1d0894cc4504">
+  <name>мдмХранилищеДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хранилище данных</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.мдмДанныеПроцессовОбщее</content>
+  <content>Catalog.мдмСхемыДанных</content>
+  <content>Catalog.мдмРеквизиты</content>
+  <content>Catalog.мдмТабличныеЧасти</content>
+  <content>Constant.мдмВерсияМетаданных</content>
+  <content>FunctionalOption.мдмВерсияМетаданных</content>
+  <content>EventSubscription.мдмЗаполнитьИмяОбъектаПередЗаписью</content>
+  <content>CommonModule.мдмХранилищеДанныхКлиент</content>
+  <content>CommonModule.мдмХранилищеДанных</content>
+  <content>Catalog.мдмДанныеПроцессовКадры</content>
+  <content>Catalog.мдмДанныеПроцессовКонтрагенты</content>
+  <content>Catalog.мдмДанныеПроцессовМТР</content>
+  <content>Catalog.мдмДанныеПроцессовПредприятие</content>
+  <content>Catalog.мдмДанныеПроцессовДоговоры</content>
+  <content>Enum.мдмХранилищеДанных</content>
+</mdclass:Subsystem>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17f04ba7-df25-4b7a-967b-a354d16da13d">
+  <producedTypes>
+    <containerType typeId="490b4ed9-1f54-44a3-9ab5-c73234959449" valueTypeId="191d8298-1faa-4177-ad15-a12b3fc6a646"/>
+  </producedTypes>
+  <name>мдмМастерДанныеОбъект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мастер данные объект</value>
+  </synonym>
+  <type>
+    <types>CatalogObject.ДемоКонтрагенты</types>
+    <types>CatalogObject.ДемоНоменклатура</types>
+  </type>
+</mdclass:DefinedType>

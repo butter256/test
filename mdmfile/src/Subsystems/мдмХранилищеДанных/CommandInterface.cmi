@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>0:d0202fd1-7fc0-42c8-907a-51c37c599e9c</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:6d03f5e1-26bf-4438-815e-4e27a367f51c</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>0:d0202fd1-7fc0-42c8-907a-51c37c599e9c</commands>
+      <commands>0:6d03f5e1-26bf-4438-815e-4e27a367f51c</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.мдмСхемыДанных.StandardCommand.OpenList</commands>
+      <commands>Catalog.мдмДанныеПроцессовОбщее.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>0:d0202fd1-7fc0-42c8-907a-51c37c599e9c</commands>
+      <commands>0:6d03f5e1-26bf-4438-815e-4e27a367f51c</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

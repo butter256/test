@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5525acc-1196-4abd-b1dc-b3117323eb4b">
+  <name>мдмМастерДанныеСобытия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мастер данные события</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

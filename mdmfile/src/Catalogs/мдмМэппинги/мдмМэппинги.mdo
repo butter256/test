@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67e3fba1-0e44-4af5-b7ca-79f6ff4b1823">
+  <producedTypes>
+    <objectType typeId="fc895f29-e020-423d-9f5a-29d7fc033f3d" valueTypeId="f2cc0c25-5ed9-4108-8bab-6f30ac5b2b65"/>
+    <refType typeId="39d3c832-cd6d-4f44-81b4-d60d67a5b6c2" valueTypeId="1d1173b3-7f12-4e71-bd21-c4efa05b6c57"/>
+    <selectionType typeId="9a8e34a9-0946-49db-8cdb-d9e79c1d8f4c" valueTypeId="06e8f73a-bde4-412e-9ab2-571abaf84b5e"/>
+    <listType typeId="3c3e1d45-ca13-4981-92a5-37f4efccaa93" valueTypeId="6cd085e0-4249-4234-b9d7-f96cdb4bfad0"/>
+    <managerType typeId="0c2e6820-2577-4587-ba84-1044ff9f1306" valueTypeId="9855b281-b27f-4ed8-84ce-49bd9c40fde6"/>
+  </producedTypes>
+  <name>мдмМэппинги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мэппинги</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.мдмМэппинги.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.мдмМэппинги.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Мэппинг</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.мдмБизнесПроцессы</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.мдмМэппинги.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.мдмМэппинги.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="f47df72e-97c4-460c-92ff-10739d8fb52e">
+    <name>Источник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.мдмСхемыДанных</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>160</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aefdc42d-5da1-4cba-b0e3-cebe37a17f34">
+    <name>Приемник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приемник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.мдмСхемыДанных</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>160</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8763e76e-0bea-4a8b-8d84-188510ebfca0">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="d6aaa4c4-62b8-4961-9533-06256e632e8f">
+    <producedTypes>
+      <objectType typeId="515b897a-d410-459b-a5fd-34c69c1bcd26" valueTypeId="3dc057ba-631d-422a-ac14-a7a7f4a0f076"/>
+      <rowType typeId="dffdcdf5-b5fd-4c0a-9558-bb72e7ded3ce" valueTypeId="ebec3efc-5137-40a2-b39b-d87f0667e8d3"/>
+    </producedTypes>
+    <name>Соответствие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствие</value>
+    </synonym>
+    <attributes uuid="e4c56840-ae8d-4539-89a4-e0e579a0dc59">
+      <name>ТабличнаяЧастьИсточника</name>
+      <synonym>
+        <key>ru</key>
+        <value>Табличная часть источника</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.мдмТабличныеЧасти</types>
+        <types>String</types>
+        <stringQualifiers>
+          <length>80</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8b443782-0661-464c-9b47-00c8747cb7a8">
+      <name>РеквизитИсточника</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реквизит источника</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.мдмРеквизиты</types>
+        <types>String</types>
+        <stringQualifiers>
+          <length>80</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5492ad61-06b0-4353-8d6b-d29c4870644f">
+      <name>ТабличнаяЧастьПриемника</name>
+      <synonym>
+        <key>ru</key>
+        <value>Табличная часть приемника</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.мдмТабличныеЧасти</types>
+        <types>String</types>
+        <stringQualifiers>
+          <length>80</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8b10925c-88ce-489a-a933-7ccaec3f8bc2">
+      <name>РеквизитПриемника</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реквизит приемника</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.мдмРеквизиты</types>
+        <types>String</types>
+        <stringQualifiers>
+          <length>80</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="bd3ad2e4-4a53-47de-941d-84ba13cef46a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8dce9600-e2dc-4bf9-88e9-e453ca6263d3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

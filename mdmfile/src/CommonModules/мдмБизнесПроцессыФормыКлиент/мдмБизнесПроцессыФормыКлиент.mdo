@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="099d6262-b8ea-43d1-b283-66a3ae08f427">
+  <name>мдмБизнесПроцессыФормыКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бизнес процессы формы клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

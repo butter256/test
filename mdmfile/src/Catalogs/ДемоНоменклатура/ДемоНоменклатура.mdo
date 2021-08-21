@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a12fa120-ff5e-4c21-af8f-cdcf0a622a52">
+  <producedTypes>
+    <objectType typeId="bcf658ad-5514-4cfd-a3d1-e458aa2af369" valueTypeId="c8ae5a86-97a4-4943-8685-7cc12cce7589"/>
+    <refType typeId="8f84f43f-6f67-4d74-96c8-4217d27a18da" valueTypeId="6a68a02f-5aa4-48f6-9493-4c6fbaadadfa"/>
+    <selectionType typeId="530f9bec-612c-4033-b3e7-8877178547c8" valueTypeId="8e2ea382-ed71-4213-9c3e-d35631992581"/>
+    <listType typeId="63bc1fd2-6c25-4fbf-bf83-0654aed74d8b" valueTypeId="a8f65bf5-f3e5-47c4-a8f1-98d985b6caa4"/>
+    <managerType typeId="917d9315-0e09-44bc-a13b-ef91a4e4708f" valueTypeId="d1ff7fc3-7e8e-4549-8f27-3f10d846fad0"/>
+  </producedTypes>
+  <name>ДемоНоменклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДемоНоменклатура.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ДемоНоменклатура.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ДемоНоменклатура.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ДемоНоменклатура.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ДемоНоменклатура.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="95c39731-e4fe-4de2-9d67-46eda0c126a8">
+    <name>Артикул</name>
+    <synonym>
+      <key>ru</key>
+      <value>Артикул</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="edac97bb-cccb-40e1-b504-410c01ce0e6c">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="84a47095-df02-4dde-b662-1d01d1867aad">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cebe6d0c-ffb9-4549-a8f0-0501e27d11a6">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="d313ad7b-941b-4f38-9034-1b65d26a833c">
+    <name>НачатьПроцессСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начать процесс создания</value>
+    </synonym>
+    <group>CommandGroup.мдмПроцессыОбработки</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Catalog>

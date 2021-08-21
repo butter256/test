@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba50cce5-178f-4332-b6ea-fb358cbd0a58">
+  <producedTypes>
+    <managerType typeId="317ca4a2-9c71-49f2-9ee4-0abd79d7477a" valueTypeId="6435e744-98da-4935-b889-e68fd96f76a8"/>
+    <valueManagerType typeId="b74e578e-5f24-45fc-9274-507614815602" valueTypeId="d473c2cc-cf56-46ba-b1dc-d2a22a6e52f1"/>
+    <valueKeyType typeId="bd360e7f-2fea-416d-a7b3-41fba774d38f" valueTypeId="39092db3-7511-4b24-b509-0fa77b0e9ecb"/>
+  </producedTypes>
+  <name>мдмТипыОбъектовМастерДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мдм типы объектов мастер данных</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <defaultForm>CommonForm.мдмНастройки</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

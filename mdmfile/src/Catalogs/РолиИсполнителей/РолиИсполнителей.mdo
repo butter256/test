@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2da47c9f-f712-4364-8b13-e6d10f259342">
+  <producedTypes>
+    <objectType typeId="4fb475a7-3b81-4dc2-9075-aff087746567" valueTypeId="f05b0228-47a3-48b1-87ad-8ea57d2ceb26"/>
+    <refType typeId="249c8b04-90c4-4e9e-b675-d8562b89acf2" valueTypeId="1616eec4-11d6-4408-899f-8e0ec4337f40"/>
+    <selectionType typeId="99888fe7-5904-4384-afd5-18697b82fd27" valueTypeId="29df6b47-b40d-4e0f-b34b-8422681956dd"/>
+    <listType typeId="2b884f87-e20d-4d65-bdc6-c060b395f6ac" valueTypeId="6540ab14-9718-49f1-8de2-54c712b1aac2"/>
+    <managerType typeId="12cab1c7-de79-4cc1-964e-647dd3508180" valueTypeId="09e67cfc-415d-4dd5-a09f-642599c2e224"/>
+  </producedTypes>
+  <name>РолиИсполнителей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли исполнителей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РолиИсполнителей.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РолиИсполнителей.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="5d679b49-06af-45f3-b2a3-99524a87aad5">
+      <name>Заявители</name>
+      <description>Заявители</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="34eae5e3-c50d-4680-8bbd-d04ff23f5faf">
+      <name>Эксперты</name>
+      <description>Эксперты</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

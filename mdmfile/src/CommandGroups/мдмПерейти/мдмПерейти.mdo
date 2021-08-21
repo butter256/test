@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63b515eb-d962-4b89-9674-c4d121de7bd5">
+  <name>мдмПерейти</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перейти</value>
+  </synonym>
+  <representation>Auto</representation>
+  <category>FormCommandBar</category>
+</mdclass:CommandGroup>

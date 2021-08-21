@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6d9c315-3882-47cc-b520-9141e1d02617">
+  <producedTypes>
+    <objectType typeId="8b025788-81c2-4192-8421-700b473e8ad0" valueTypeId="e1cec7b4-0164-4146-842f-9ee480ac01df"/>
+    <refType typeId="00568244-4235-46ab-81bc-906428502211" valueTypeId="ab521c9a-2e59-42e7-90e6-84b472831cb6"/>
+    <selectionType typeId="571b26a0-327a-47cb-a23a-bf5b74028ce5" valueTypeId="fa4d2c41-dcb3-46d9-b7b2-641201f81766"/>
+    <listType typeId="c829d69e-5b40-457b-af64-788f1633270f" valueTypeId="26755224-6660-4f35-ada4-cc47df318f17"/>
+    <managerType typeId="eb978a03-6ee3-4096-b08d-131154e6a2b4" valueTypeId="87948028-93f3-4274-b5f1-61ea62ad6b30"/>
+  </producedTypes>
+  <name>мдмБизнесПроцессы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бизнес-процессы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.мдмБизнесПроцессы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.мдмБизнесПроцессы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Catalog.мдмСхемыДанных</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Бизнес-процесс</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Бизнес-процесс</value>
+  </extendedObjectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.мдмБизнесПроцессы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.мдмБизнесПроцессы.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.мдмБизнесПроцессы.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="1a7ac1f4-c14c-4368-904f-614bb2429e08">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a9f60992-1a9d-4f64-9a04-f21136c35ba1">
+    <name>Использовать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="da58e486-3bd2-4659-a28f-c4982b028646">
+    <name>Карта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карта</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ff133257-e28c-4e97-a15b-56b43e833b68">
+    <name>Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.мдмБизнесПроцессы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7cb05ba4-0ae1-41da-9477-2ed3461768fb">
+    <name>СхемаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема данных</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.мдмСхемыДанных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5b0f7b2a-2d36-41c9-9a66-da10c430be2a">
+    <name>ФормаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма данных</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.мдмФормыДанных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Catalog.мдмБизнесПроцессы.StandardAttribute.Ref</field>
+    </choiceParameterLinks>
+    <choiceParameterLinks>
+      <name>Отбор.СхемаДанных</name>
+      <field>Catalog.мдмБизнесПроцессы.Attribute.СхемаДанных</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="eac1d71d-ee54-43e1-9a81-a762e832658e">
+    <name>НастройкаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка списка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.мдмНастройкиСписков</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Catalog.мдмБизнесПроцессы.StandardAttribute.Ref</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d736741a-51cf-4aa7-9a0e-0593ee4526e7">
+    <name>ТипПредмета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип предмета</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="31e81d5b-8f45-4b20-baaf-7179261a2521">
+    <name>ПолноеИмяМетаданныхПредмета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное имя метаданных предмета</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e79254c6-70c8-4134-90ee-dc1f588d8274">
+    <name>ЗаполнениеДанныхБизнесПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение данных бизнес-процесса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="5c606361-eb7b-4ea0-be02-b64c4ce2d41b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="da8cd0fd-56e4-4d27-851c-8436d260cc39">
+    <name>ФормаВыбораБизнесПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора бизнес процесса</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3fa0a427-bf7d-45a0-8816-c63ba159cb2a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0b798938-4e5a-48a1-a732-87e9df955673">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a88817b2-a8cd-473e-a88b-ec88825d41a5">
+    <name>ПростойМакетБизнесПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Простой макет бизнес процесса</value>
+    </synonym>
+    <templateType>GraphicalSchema</templateType>
+  </templates>
+  <commands uuid="5c2dfe21-bd45-4a44-bcf9-6117822fec53">
+    <name>ПроверитьСхему</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверить схему</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.мдмБизнесПроцессы</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Catalog>

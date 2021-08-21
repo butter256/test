@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8baf0da-074c-4b75-b7e1-3efd8ead3b99">
+  <name>мдмМастерДанныеПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мастер данные перед записью</value>
+  </synonym>
+  <source>
+    <types>DefinedType.мдмМастерДанныеОбъект</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.мдмМастерДанныеСобытия.МастерДанныеПередЗаписьюОбработчик</handler>
+</mdclass:EventSubscription>

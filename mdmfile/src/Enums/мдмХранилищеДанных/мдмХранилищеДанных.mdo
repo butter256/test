@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95a9e910-5f5e-4303-b8e0-2b3b9603647b">
+  <producedTypes>
+    <refType typeId="2f76dcb6-236e-4b38-92ab-c28df7c3dedd" valueTypeId="269af491-40f7-4e66-a5aa-78bd15397dd0"/>
+    <listType typeId="7dea3b4f-0aff-428f-9fff-fcd44d9983f2" valueTypeId="e2362aa9-1f45-48c0-a19a-9c8007912565"/>
+    <managerType typeId="c5743419-1dc9-4f11-a1ed-7cecafa6c24a" valueTypeId="15ac5a99-3404-4b44-a513-b4305ecf93f5"/>
+  </producedTypes>
+  <name>мдмХранилищеДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хранилище данных</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4e271c95-c5ac-4c14-90ee-61e12464caff">
+    <name>Общее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общее</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7ad197fa-6054-4c31-8151-6739e1a402b2">
+    <name>Контрагенты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагенты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4bec1f81-131a-4430-a316-2d5f7c53ea92">
+    <name>МТР</name>
+    <synonym>
+      <key>ru</key>
+      <value>МТР</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0af6b0fa-8e9b-44e2-82b5-314bb2e68cb7">
+    <name>Договоры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договоры</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ea8b5045-b2e6-4dc8-a4bc-f4f7391176a7">
+    <name>Кадры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кадры</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a917b98c-3e50-4828-9264-ab3cda384aa2">
+    <name>Предприятие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предприятие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="23186016-296c-4f14-a9c9-2f069576cfa9">
+    <name>Расширение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

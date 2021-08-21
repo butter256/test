@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1436f527-9e06-4d44-ae36-17f6678f8e41">
+  <producedTypes>
+    <containerType typeId="88e2007a-2182-4a41-81b4-86fa92b0aa86" valueTypeId="c50d2e0b-2ba4-4e71-908a-312f003d5997"/>
+  </producedTypes>
+  <name>мдмЗначениеХранилищаДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значение хранилища данных</value>
+  </synonym>
+  <type>
+    <types>EnumRef.нсиЮрФизЛицо</types>
+    <types>CatalogRef.ДемоКонтрагенты</types>
+    <types>Boolean</types>
+    <types>CatalogRef.ДемоНоменклатура</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>3</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>1024</length>
+    </stringQualifiers>
+    <dateQualifiers/>
+  </type>
+</mdclass:DefinedType>

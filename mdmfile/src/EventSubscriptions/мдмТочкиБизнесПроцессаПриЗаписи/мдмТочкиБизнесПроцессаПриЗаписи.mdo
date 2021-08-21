@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5178958-c46a-43b6-b18e-8b809a0b5ee2">
+  <name>мдмТочкиБизнесПроцессаПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Точки бизнес процесса при записи</value>
+  </synonym>
+  <source>
+    <types>DefinedType.мдмТочкаБизнесПроцессаОбъект</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.мдмБизнесПроцессыСобытия.ТочкиБизнесПроцессаПриЗаписиОбработчик</handler>
+</mdclass:EventSubscription>

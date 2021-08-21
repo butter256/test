@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0719bfc2-fc0c-4d7a-bf43-12930909aeff">
+  <producedTypes>
+    <containerType typeId="a10a4ae4-d3a4-4fb0-9e6b-a2f2fcc10540" valueTypeId="9cc9ce25-1c29-4836-8869-9398a5a44845"/>
+  </producedTypes>
+  <name>мдмТочкаБизнесПроцесса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Точка бизнес процесса</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.мдмТочкиДействие</types>
+    <types>CatalogRef.мдмТочкиУсловие</types>
+    <types>CatalogRef.мдмТочкиСлияние</types>
+    <types>CatalogRef.мдмТочкиВложенныйПроцесс</types>
+    <types>CatalogRef.мдмТочкиЗавершение</types>
+    <types>CatalogRef.мдмТочкиОбработка</types>
+    <types>CatalogRef.мдмТочкиВыборВарианта</types>
+    <types>CatalogRef.мдмТочкиРазделение</types>
+    <types>CatalogRef.мдмТочкиСтарт</types>
+  </type>
+</mdclass:DefinedType>

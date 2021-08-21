@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38e80225-6b58-4615-b365-d0fa4a73cab3">
+  <producedTypes>
+    <refType typeId="423801d1-f3c4-4432-993f-13cbe7d72212" valueTypeId="4d2169a7-c509-46e8-86c3-84a7cc628e0d"/>
+    <listType typeId="e237aca2-0dcc-44b5-8e6c-f6cd0c76a49f" valueTypeId="a51bb22d-9091-4fa4-ac83-5f9041b8c068"/>
+    <managerType typeId="0b1ff15b-d7fe-4763-84a2-7f193d2528d3" valueTypeId="08d8fdfa-bece-467a-b66b-ff2a36f0cd7d"/>
+  </producedTypes>
+  <name>мдмТипДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип данных</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="97ef6c8c-e565-42f7-84ff-affd98ee6c2e">
+    <name>СтрокаНеограниченнойДлины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка неограниченной длины</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="66449dbc-cd2e-474e-9cc5-25db2bfe29c1">
+    <name>ХранилищеЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище значения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e3e63ec4-4f92-4d6f-81bf-6f738275bf87">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="726eb29f-573c-4c2a-983f-d988daabaa71">
+  <producedTypes>
+    <objectType typeId="9f253f54-c23c-4a68-aa48-31ebf4563897" valueTypeId="6398ddb0-465a-4a0f-b256-fa06b3b90326"/>
+    <refType typeId="5ee67fab-a651-48af-b2d6-1499a9227ee3" valueTypeId="8d42ccd6-30e9-4e0e-9f6c-ca60608474a8"/>
+    <selectionType typeId="e31896a3-9148-47ff-962c-0114232404f6" valueTypeId="ba1c4e89-b83a-4fa7-a507-b62c8ee7de7d"/>
+    <listType typeId="751fba6f-1f5b-4b0e-825e-20f7a13034f1" valueTypeId="f1e68b4e-bfc8-4005-aaa3-5b13f7fa0540"/>
+    <managerType typeId="63958198-25d1-4af3-b850-4eaef137b2b0" valueTypeId="efa66970-3b91-4fb5-9e21-dd5a7b640625"/>
+  </producedTypes>
+  <name>мдмОтборы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отборы</value>
+  </synonym>
+  <inputByString>Catalog.мдмОтборы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Условие формы</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.мдмФормыДанных</owners>
+  <owners>Catalog.мдмБизнесПроцессы</owners>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.мдмОтборы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.мдмОтборы.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="c7b0dc22-734d-44fc-9da0-d9ea195eb22e">
+    <name>Отбор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9ae3baf4-13b3-4514-a489-5ea712117598">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9f19ba1c-be37-41e6-8c36-ebfbb94603b7">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

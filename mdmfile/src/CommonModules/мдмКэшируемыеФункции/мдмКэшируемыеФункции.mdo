@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af66e703-5bcb-44fa-8f0c-a0473c421d77">
+  <name>мдмКэшируемыеФункции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кэшируемые функции</value>
+  </synonym>
+  <server>true</server>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>
